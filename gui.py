@@ -721,7 +721,7 @@ class AppItemDropDusius(ctk.CTk):
     def select_item(self, event, item):
         flag = 0
         for a in self.selected_items:
-            if item['Index'] == a['Index']:
+            if item['Index'] == a['Index'] and item['Name'] == a['Name']:
                 flag = 1
 
         if flag == 0:

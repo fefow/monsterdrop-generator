@@ -1,8 +1,10 @@
 **MonsterDrop Generator**
 *- MuOnline | MuDevs Free Files Season 18.2-2 y 19.2-3* 
 
+
 Descripción: Programa para generar las lineas de configuración de drop de items en los files de MuDevs S18 y 19.
 Para modificar los archivos XML que se encuentran en la dir. 'Data > Item > MonsterDropManager' dentro de los archivos de servidor.
+
 
 Requiere tener instalado *python* y tener los siguientes paquetes para ejecutarlo correctamente:
   - customtkinter
@@ -10,6 +12,7 @@ Requiere tener instalado *python* y tener los siguientes paquetes para ejecutarl
   - lxml
 
 ![imagen](https://github.com/user-attachments/assets/59ae051e-bb4f-41dc-aa5c-c1c00babbd50)
+
 
 **- Compilarlo**
 
