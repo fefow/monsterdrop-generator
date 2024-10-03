@@ -20,7 +20,7 @@ class AppItemDropDusius(ctk.CTk):
         self.terminated = False
         w, h = self.winfo_screenwidth(), self.winfo_screenheight()
         WID = (w/2)
-        self.title("MonsterDrop MUDevs S18 p2 - Dusius")
+        self.title("MonsterDrop MUDevs S18-S19 - Dusius")
         self.geometry("%dx%d+%d+%d" % (WID, h-75, WID/2, 0))
         self.resizable(False,True)
         self.protocol('WM_DELETE_WINDOW', self.terminate)
